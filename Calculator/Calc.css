@@ -1,0 +1,62 @@
+body{
+    background-image: url("calc_1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.display{
+    height:10px;
+}
+.box{
+    height:450px;
+    width:300px;
+    border:3px solid black;
+    background-image: url("cal_b.jpeg");
+    border-radius:10%;
+}
+.keys{
+    position: relative;
+    top: 15px;
+}
+.button{
+    width: 60px;
+    height: 40px;
+    border-color: black;
+    border-radius: 20%;
+    background-color: burlywood;
+}
+#top{
+    background-color: rgb(75, 75, 171);
+    font-size: larger;
+}
+#sys{
+    background-color: orange;
+    font-size: larger;
+}
+#num{
+    background-color: dimgrey;
+    font-size: larger;
+}
+#dot{
+    background-color: gray;
+    font-size: larger;
+}
+#clr{
+    background-color: crimson;
+    font-size: larger;
+}
+#head{
+    height:45px;
+    width:fit-content;
+    border: 3px solid black;
+    background-color:burlywood;
+    font-size:40px;
+    border-radius:20%;
+}
+#d{
+height:40px;
+font-size:20px;
+background-color: burlywood;
+border: 3px solid black;
+border-radius: 20%;
+}

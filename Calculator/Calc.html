@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Calculator
+        </title>
+        <link href="Calc.css" type="text/css" rel="stylesheet">
+        <script type="text/javascript" src="Calc.js"></script>
+    </head>
+    <body>
+        <center>
+            <br><br><br><br>
+            <div class="title? align=center">
+                <div id="head"> 
+                    <b>Calculator using HTML</b>
+                </div>
+               <br><br><br><br><br>
+            </div>
+        </center>
+        <center><div class="box">
+            <br><br><br>
+            <div class="display">
+                <input type="text" readonly size="21" id="d">
+            </div>
+            <br><br>
+            <center><div class="keys">
+            <b><p>
+                    <input type="button" class="button gray" value="mrc" onclick='c("Created...")' id="top">
+                    <input type="button" class="button gray" value="m-" onclick='c("....by...")' id="top">
+                    <input type="button" class="button gray" value="m+" onclick='c(".....Abhishek")' id="top">
+                    <input type="button" class="button black" value="/" onclick='v("/")' id="sys">
+                </p>
+                <p>
+                    <input type="button" class="button black" value="7" onclick='v("7")' id="num">
+                    <input type="button" class="button black" value="8" onclick='v("8")' id="num">
+                    <input type="button" class="button black" value="9" onclick='v("9")' id="num">
+                    <input type="button" class="button black" value="*" onclick='v("*")' id="sys">
+                </p>
+                <p>
+                    <input type="button" class="button black" value="4" onclick='v("4")' id="num">
+                    <input type="button" class="button black" value="5" onclick='v("5")' id="num">
+                    <input type="button" class="button black" value="6" onclick='v("6")' id="num">
+                    <input type="button" class="button black" value="+" onclick='v("+")' id="sys">
+                </p>
+                <p>
+                    <input type="button" class="button black" value="1" onclick='v("1")' id="num">
+                    <input type="button" class="button black" value="2" onclick='v("2")' id="num">
+                    <input type="button" class="button black" value="3" onclick='v("3")' id="num">
+                    <input type="button" class="button black" value="-" onclick='v("-")' id="sys">
+                </p>
+                <p>
+                    <input type="button" class="button black" value="0" onclick='v("0")' id="num">
+                    <input type="button" class="button black" value="." onclick='v(".")' id="dot">
+                    <input type="button" class="button black" value="C" onclick='c("")' id="clr">
+                    <input type="button" class="button black" value="=" onclick='e()' id="sys">
+                </p>
+            </div></center></b>
+        </div></center>    
+    </body>
+</html>

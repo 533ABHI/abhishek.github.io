@@ -1,0 +1,37 @@
+body {
+    background-image: url('lock.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#b1{
+    background-image: url("cb.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#head{
+    font-size: 45px;
+    color: rgba(234, 236, 240, 0.745);
+    font-family: Garamond;
+}
+#box1{
+    width: 500px;
+    height:200px;
+    border-radius: 20%;
+    border:2px solid #1d9e4e";
+}
+#l1{
+    color:rgb(233, 235, 238);
+    font-family:"Candara";
+}
+#l2{
+    color: rgb(239, 240, 245);
+    font-family:"Candara";
+}
+#b1{
+    color: rgb(235, 236, 242);
+    font-family:"Candara";
+}
+#te1{
+    font-family:Garamond;
+    font-size:2px;
+}
